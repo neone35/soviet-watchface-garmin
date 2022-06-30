@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\aarta\Documents\PersonalFiles\Projects\other\soviet-electricity-watchface\sovietWatchface\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="1" lineNum="7" parent="globals/sovietWatchfaceApp" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="1" lineNum="8" parent="globals/sovietWatchfaceApp" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="2" lineNum="12" parent="globals/sovietWatchfaceApp" pc="268435479" symbol="onStart"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="2" lineNum="13" parent="globals/sovietWatchfaceApp" pc="268435483" symbol="onStart"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="3" lineNum="17" parent="globals/sovietWatchfaceApp" pc="268435507" symbol="onStop"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="4" lineNum="21" parent="globals/sovietWatchfaceApp" pc="268435512" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="4" lineNum="22" parent="globals/sovietWatchfaceApp" pc="268435516" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="4" lineNum="23" parent="globals/sovietWatchfaceApp" pc="268435539" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="5" lineNum="27" parent="globals/sovietWatchfaceApp" pc="268435577" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="5" lineNum="28" parent="globals/sovietWatchfaceApp" pc="268435581" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="6" lineNum="5" parent="globals/sovietWatchfaceApp" pc="268437217" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="6" lineNum="5" parent="globals/sovietWatchfaceApp" pc="268437217" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="7" lineNum="33" parent="globals" pc="268435598" symbol="getApp"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceApp.mc" id="7" lineNum="34" parent="globals" pc="268435610" symbol="getApp"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceBackground.mc" id="9" lineNum="8" parent="globals/Background" pc="268435627" symbol="initialize"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceBackground.mc" id="9" lineNum="9" parent="globals/Background" pc="268435631" symbol="initialize"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceBackground.mc" id="9" lineNum="13" parent="globals/Background" pc="268435652" symbol="initialize"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceBackground.mc" id="10" lineNum="16" parent="globals/Background" pc="268435673" symbol="draw"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceBackground.mc" id="10" lineNum="18" parent="globals/Background" pc="268435677" symbol="draw"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceBackground.mc" id="10" lineNum="19" parent="globals/Background" pc="268435726" symbol="draw"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceBackground.mc" id="11" lineNum="6" parent="globals/Background" pc="268437149" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceBackground.mc" id="11" lineNum="6" parent="globals/Background" pc="268437149" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="13" lineNum="15" parent="globals/sovietWatchfaceView" pc="268435739" symbol="initialize"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="13" lineNum="16" parent="globals/sovietWatchfaceView" pc="268435743" symbol="initialize"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="14" lineNum="20" parent="globals/sovietWatchfaceView" pc="268435762" symbol="onLayout"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="14" lineNum="22" parent="globals/sovietWatchfaceView" pc="268435766" symbol="onLayout"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="14" lineNum="23" parent="globals/sovietWatchfaceView" pc="268435803" symbol="onLayout"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="14" lineNum="24" parent="globals/sovietWatchfaceView" pc="268435846" symbol="onLayout"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="14" lineNum="25" parent="globals/sovietWatchfaceView" pc="268435889" symbol="onLayout"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="15" lineNum="31" parent="globals/sovietWatchfaceView" pc="268435933" symbol="onShow"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="36" parent="globals/sovietWatchfaceView" pc="268435938" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="38" parent="globals/sovietWatchfaceView" pc="268435942" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="39" parent="globals/sovietWatchfaceView" pc="268435949" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="40" parent="globals/sovietWatchfaceView" pc="268435966" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="41" parent="globals/sovietWatchfaceView" pc="268435976" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="42" parent="globals/sovietWatchfaceView" pc="268436001" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="43" parent="globals/sovietWatchfaceView" pc="268436012" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="46" parent="globals/sovietWatchfaceView" pc="268436028" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="47" parent="globals/sovietWatchfaceView" pc="268436056" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="48" parent="globals/sovietWatchfaceView" pc="268436063" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="51" parent="globals/sovietWatchfaceView" pc="268436084" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="54" parent="globals/sovietWatchfaceView" pc="268436149" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="55" parent="globals/sovietWatchfaceView" pc="268436173" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="56" parent="globals/sovietWatchfaceView" pc="268436210" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="57" parent="globals/sovietWatchfaceView" pc="268436230" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="60" parent="globals/sovietWatchfaceView" pc="268436244" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="61" parent="globals/sovietWatchfaceView" pc="268436268" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="62" parent="globals/sovietWatchfaceView" pc="268436288" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="65" parent="globals/sovietWatchfaceView" pc="268436305" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="68" parent="globals/sovietWatchfaceView" pc="268436325" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="69" parent="globals/sovietWatchfaceView" pc="268436344" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="70" parent="globals/sovietWatchfaceView" pc="268436366" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="71" parent="globals/sovietWatchfaceView" pc="268436402" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="75" parent="globals/sovietWatchfaceView" pc="268436429" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="77" parent="globals/sovietWatchfaceView" pc="268436453" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="78" parent="globals/sovietWatchfaceView" pc="268436489" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="80" parent="globals/sovietWatchfaceView" pc="268436521" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="81" parent="globals/sovietWatchfaceView" pc="268436565" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="82" parent="globals/sovietWatchfaceView" pc="268436625" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="16" lineNum="83" parent="globals/sovietWatchfaceView" pc="268436661" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="17" lineNum="91" parent="globals/sovietWatchfaceView" pc="268436706" symbol="onHide"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="18" lineNum="95" parent="globals/sovietWatchfaceView" pc="268436711" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="19" lineNum="99" parent="globals/sovietWatchfaceView" pc="268436716" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="20" lineNum="9" parent="globals/sovietWatchfaceView" pc="268437168" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\aarta\\Documents\\PersonalFiles\\Projects\\other\\soviet-electricity-watchface\\sovietWatchface\\source\\sovietWatchfaceView.mc" id="20" lineNum="9" parent="globals/sovietWatchfaceView" pc="268437168" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="22" lineNum="2" parent="globals/Rez/Drawables" pc="268437211" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="23" lineNum="7" parent="globals/Rez/Fonts" pc="268437213" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="24" lineNum="12" parent="globals/Rez/JsonData" pc="268437215" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="25" lineNum="21" parent="globals/Rez/Layouts" pc="268436721" symbol="WatchFace"/>
+        <entry filename="Rez" id="25" lineNum="23" parent="globals/Rez/Layouts" pc="268436733" symbol="WatchFace"/>
+        <entry filename="Rez" id="25" lineNum="24" parent="globals/Rez/Layouts" pc="268436757" symbol="WatchFace"/>
+        <entry filename="Rez" id="25" lineNum="25" parent="globals/Rez/Layouts" pc="268436920" symbol="WatchFace"/>
+        <entry filename="Rez" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268437033" symbol="WatchFace"/>
+        <entry filename="Rez" id="25" lineNum="28" parent="globals/Rez/Layouts" pc="268437100" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="14" parent="globals/Rez/Layouts" pc="268437214" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="27" lineNum="33" parent="globals/Rez/Menus" pc="268437212" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="28" lineNum="35" parent="globals/Rez/Strings" pc="268437216" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="29" lineNum="1" parent="globals/Rez" pc="268437187" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="29" lineNum="1" parent="globals/Rez" pc="268437187" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="13" symbol="&lt;globals/sovietWatchfaceView/&lt;&gt;made_evolve48_font&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="22" symbol="ColorRed"/>
+        <entry field="true" id="26" symbol="MilitaryFormatTitle"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="9" object="true" symbol="sovietWatchfaceApp"/>
+        <entry field="true" id="21" symbol="ColorBlue"/>
+        <entry field="true" id="29" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="11" symbol="&lt;globals/sovietWatchfaceView/&lt;&gt;cccp_gost&gt;"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="16" symbol="CccpGost"/>
+        <entry id="15" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="25" symbol="ColorDarkGray"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="19" symbol="made_evolve48"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="18" symbol="made_evolve16"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="12" symbol="&lt;globals/sovietWatchfaceView/&lt;&gt;made_evolve16_font&gt;"/>
+        <entry field="true" id="28" symbol="ColorWhite"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="27" symbol="ColorBlack"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="17" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="24" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="20" symbol="ColorLightGray"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="23" symbol="ForegroundColorTitle"/>
+        <entry id="14" module="true" symbol="Layouts"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="10" object="true" symbol="sovietWatchfaceView"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435506" name="state" stackId="1" startPc="268435479"/>
+        <entry arg="true" endPc="268435511" name="state" stackId="1" startPc="268435507"/>
+        <entry endPc="268435671" name="dictionary" stackId="1" startPc="268435631"/>
+        <entry arg="true" endPc="268435738" name="dc" stackId="1" startPc="268435673"/>
+        <entry arg="true" endPc="268435932" name="dc" stackId="1" startPc="268435762"/>
+        <entry endPc="268436704" name="dateEllipseView" stackId="10" startPc="268435942"/>
+        <entry endPc="268436704" name="cccpWidth" stackId="8" startPc="268435942"/>
+        <entry endPc="268436704" name="timeString" stackId="5" startPc="268435942"/>
+        <entry endPc="268436704" name="clockTime" stackId="3" startPc="268435942"/>
+        <entry endPc="268436704" name="timeFormat" stackId="2" startPc="268435942"/>
+        <entry endPc="268436704" name="today" stackId="11" startPc="268435942"/>
+        <entry endPc="268436704" name="view" stackId="6" startPc="268435942"/>
+        <entry endPc="268436704" name="view2" stackId="7" startPc="268435942"/>
+        <entry endPc="268436704" name="dateString" stackId="12" startPc="268435942"/>
+        <entry endPc="268436704" name="hours" stackId="4" startPc="268435942"/>
+        <entry endPc="268436704" name="cccpCenterHoriz" stackId="9" startPc="268435942"/>
+        <entry arg="true" endPc="268436705" name="dc" stackId="1" startPc="268435938"/>
+        <entry endPc="268437146" name="rez_cmp_local_text_PageHeading" stackId="4" startPc="268436733"/>
+        <entry endPc="268437146" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436733"/>
+        <entry endPc="268437146" name="rez_cmp_local_text_DateEllipse" stackId="5" startPc="268436733"/>
+        <entry endPc="268437146" name="rez_cmp_local_custom_drawable_15687348149509435161" stackId="2" startPc="268436733"/>
+        <entry arg="true" endPc="268437147" name="dc" stackId="1" startPc="268436721"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="CccpGost"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="made_evolve16"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="made_evolve48"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="166" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/sovietWatchfaceView" offset="221" parentId="globals" symbolId="sovietWatchfaceView" type="class"/>
+        <dataEntry label="globals/Rez" offset="340" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="419" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="466" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="497" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="544" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="583" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="614" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/sovietWatchfaceApp" offset="725" parentId="globals" symbolId="sovietWatchfaceApp" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="initialize" parent="sovietWatchfaceApp" startPc="268435456">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435506" name="onStart" parent="sovietWatchfaceApp" startPc="268435479">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435511" name="onStop" parent="sovietWatchfaceApp" startPc="268435507">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435576" name="getInitialView" parent="sovietWatchfaceApp" startPc="268435512">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435597" name="onSettingsChanged" parent="sovietWatchfaceApp" startPc="268435577">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437235" name="&lt;init&gt;" parent="sovietWatchfaceApp" startPc="268437217">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435626" name="getApp" startPc="268435598">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435672" name="initialize" parent="Background" startPc="268435627">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435738" name="draw" parent="Background" startPc="268435673">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437167" name="&lt;init&gt;" parent="Background" startPc="268437149">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435761" name="initialize" parent="sovietWatchfaceView" startPc="268435739">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435932" name="onLayout" parent="sovietWatchfaceView" startPc="268435762">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435937" name="onShow" parent="sovietWatchfaceView" startPc="268435933">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436705" name="onUpdate" parent="sovietWatchfaceView" startPc="268435938">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436710" name="onHide" parent="sovietWatchfaceView" startPc="268436706">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436715" name="onExitSleep" parent="sovietWatchfaceView" startPc="268436711">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436720" name="onEnterSleep" parent="sovietWatchfaceView" startPc="268436716">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437186" name="&lt;init&gt;" parent="sovietWatchfaceView" startPc="268437168">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437211" name="&lt;init&gt;" parent="Drawables" startPc="268437211">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437213" name="&lt;init&gt;" parent="Fonts" startPc="268437213">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437215" name="&lt;init&gt;" parent="JsonData" startPc="268437215">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437147" name="WatchFace" parent="Layouts" startPc="268436721">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437214" name="&lt;init&gt;" parent="Layouts" startPc="268437214">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437212" name="&lt;init&gt;" parent="Menus" startPc="268437212">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437216" name="&lt;init&gt;" parent="Strings" startPc="268437216">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437210" name="&lt;init&gt;" parent="Rez" startPc="268437187">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
