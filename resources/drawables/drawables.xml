@@ -6,8 +6,11 @@
             <color>FFFFFF</color>
         </palette>
     </bitmap>
-    <drawable-list id="shapes" background="Graphics.COLOR_TRANSPARENT">
-        <shape type="circle" x="78" y="160" radius="8" color="Graphics.COLOR_RED" />
-        <shape type="rectangle" x="51" y="137" width="76" height="20" color="Graphics.COLOR_BLUE" />
-    </drawable-list>
+    <!-- <drawable-list id="mainClockShapes" background="Graphics.COLOR_TRANSPARENT">
+        <shape type="rectangle" x="37" y="103" width="180" height="57" color="Graphics.COLOR_BLUE" />
+        <shape type="rectangle" x="44" y="110" width="25" height="45" color="Graphics.COLOR_RED" />
+        <shape type="rectangle" x="90" y="110" width="25" height="45" color="Graphics.COLOR_RED" />
+        <shape type="rectangle" x="140" y="110" width="25" height="45" color="Graphics.COLOR_RED" />
+        <shape type="rectangle" x="185" y="110" width="25" height="45" color="Graphics.COLOR_RED" />
+    </drawable-list> -->
 </drawables>

@@ -13,8 +13,8 @@ class BackgroundView extends Ui.Drawable {
 	
     function initialize(params) {
         Drawable.initialize(params);
-        radius = centerX - (10*centerX/120).toNumber();
-        if (centerX==195) {
+        radius = centerOfX - (10*centerOfX/120).toNumber();
+        if (centerOfX==195) {
 			mark_length = 20;
 		}
     }
