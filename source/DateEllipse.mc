@@ -4,18 +4,9 @@ using Toybox.System;
 using Toybox.Application;
 using Toybox.Time.Gregorian;
 
-function addZero(number) {
-    if (number.toChar().toString().length()<= 1) {
-        return "0"+number;
-    } else {
-        return number;
-    }
-}
-
 class DateEllipse extends Ui.Drawable {
 
     var heightOfEllipse = 10;
-    var dateString = "00/00";
 	
     function initialize(params) {
         Drawable.initialize(params);
@@ -28,7 +19,7 @@ class DateEllipse extends Ui.Drawable {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
         dc.fillEllipse(50, 50, 25, heightOfEllipse);
         var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-        dateString = Lang.format("$1$/$2$", [addZero(today.month),addZero(today.day)]);
+        var dateString = Lang.format("$1$/$2$", [today.month,today.day]);
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         dc.drawText(50, 50-heightOfEllipse, made_evolve16_font, dateString, Graphics.TEXT_JUSTIFY_CENTER);
 
