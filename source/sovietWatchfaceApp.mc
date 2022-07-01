@@ -1,8 +1,30 @@
-import Toybox.Application;
-import Toybox.Lang;
-import Toybox.WatchUi;
+using Toybox.Application;
+using Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.Math;
+
+var centerX;
+var centerY;
+
+function degreesToRadians(degrees) {
+	return degrees * Math.PI / 180;
+}  
+
+function radiansToDegrees(radians) {
+	return radians * 180 / Math.PI;
+}  
+
+function convertCoorX(radians, radius) {
+	return centerX + radius*Math.cos(radians);
+}
+
+function convertCoorY(radians, radius) {
+	return centerY + radius*Math.sin(radians);
+}
 
 class sovietWatchfaceApp extends Application.AppBase {
+
+    var mView;
 
     function initialize() {
         AppBase.initialize();
@@ -20,7 +42,8 @@ class sovietWatchfaceApp extends Application.AppBase {
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
         System.println( "initial view has been set up" );
-        return [ new sovietWatchfaceView() ] as Array<Views or InputDelegates>;
+        mView = new sovietWatchfaceView();
+        return [mView];
     }
 
     // New app settings have been received so trigger a UI update

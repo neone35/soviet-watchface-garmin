@@ -6,23 +6,31 @@ import Toybox.WatchUi;
 import Toybox.Time;
 import Toybox.Time.Gregorian;
 
+var gsecondary_color = 0xFF0000;
+var garc_color = 0x555555;
+
+var made_evolve16_font as FontResource;
+var made_evolve48_font as FontResource;
+
 class sovietWatchfaceView extends WatchUi.WatchFace {
 
     private var cccp_gost as BitmapResource;
-    private var made_evolve16_font as FontResource;
-    private var made_evolve48_font as FontResource;
+    private var myShapes;
 
     function initialize() {
         WatchFace.initialize();
+        myShapes = new Rez.Drawables.shapes();
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
+        centerX = dc.getWidth()/2;
+    	centerY = dc.getHeight()/2;
         // setScreenDimensions(dc);
-        setLayout(Rez.Layouts.WatchFace(dc));
         made_evolve16_font = WatchUi.loadResource(Rez.Fonts.made_evolve16);
         made_evolve48_font = WatchUi.loadResource(Rez.Fonts.made_evolve48);
         cccp_gost = WatchUi.loadResource(Rez.Drawables.CccpGost);
+        setLayout(Rez.Layouts.WatchFace(dc));
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -34,6 +42,9 @@ class sovietWatchfaceView extends WatchUi.WatchFace {
     // Update the view
     //! @param dc Device context
     function onUpdate(dc as Dc) as Void {
+        var backgroundView = View.findDrawableById("background");
+        backgroundView.draw(dc);
+
         // Get the current time and format it correctly
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
@@ -51,17 +62,20 @@ class sovietWatchfaceView extends WatchUi.WatchFace {
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
         // Update the view
-        var view = View.findDrawableById("TimeLabel") as Text;
-        view.setColor(getApp().getProperty("ForegroundColor") as Number);
-        view.setFont(made_evolve48_font);
-        view.setText(timeString);
+        var timeView = View.findDrawableById("TimeLabel") as Text;
+        timeView.setColor(getApp().getProperty("ForegroundColor") as Number);
+        timeView.setFont(made_evolve48_font);
+        timeView.setText(timeString);
         // view.setLocation(screenWidth/2 - view.width/2, screenHeight/2 - view.height/2);
 
-        var view2 = View.findDrawableById("PageHeading") as Text;
-        view2.setFont(made_evolve16_font);
-        view2.setText("CCCP");
+        var titleView = View.findDrawableById("PageHeading") as Text;
+        titleView.setFont(made_evolve16_font);
+        titleView.setText("CCCP");
+        var titleViewWidth = dc.getTextWidthInPixels("CCCP", made_evolve16_font);
+        var titleCenter = (dc.getWidth() - titleViewWidth) / 2;
+        titleView.setLocation(titleCenter, 77);
 
-        // Call the parent onUpdate function to redraw the layout
+        // Draw the layout and then run your own custom drawing
         View.onUpdate(dc);
 
         // dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLUE);
@@ -71,18 +85,12 @@ class sovietWatchfaceView extends WatchUi.WatchFace {
         dc.drawBitmap(cccpCenterHoriz, 3, cccp_gost);
 
         // cccp_gost.draw(dc);
-
-        var dateEllipseView = View.findDrawableById("DateEllipse") as Bitmap;
-        //draw filled ellipse to represent date
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
-        dc.fillEllipse(50, 50, 25, 10);
-        // dateEllipseShape.draw(dc);
-        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-        var dateString = Lang.format("$1$/$2$", [today.month,today.day]);
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
-        dc.drawText(50, 50, made_evolve16_font, dateString, Graphics.TEXT_JUSTIFY_CENTER);
-
+        var dateEllipseView = View.findDrawableById("dateEllipse");
+        dateEllipseView.draw(dc);
         
+        myShapes.draw(dc);
+        var myShapesX = myShapes.locX;
+        System.println( "myShapesX: " + myShapesX );
     }
 
     // Called when this View is removed from the screen. Save the
