@@ -6,26 +6,26 @@ import Toybox.WatchUi;
 import Toybox.Time;
 import Toybox.Time.Gregorian;
 
-var gsecondary_color = 0xFF0000;
-var garc_color = 0x555555;
-
 var made_evolve16_font as FontResource;
 var made_evolve48_font as FontResource;
+
+var centerOfX = 0;
+var centerOfY = 0;
 
 class sovietWatchfaceView extends WatchUi.WatchFace {
 
     private var cccp_gost as BitmapResource;
-    private var myShapes;
+    //private var mainClockBg as Drawable;
 
     function initialize() {
         WatchFace.initialize();
-        myShapes = new Rez.Drawables.shapes();
+        //mainClockBg = new Rez.Drawables.mainClockShapes();
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        centerX = dc.getWidth()/2;
-    	centerY = dc.getHeight()/2;
+        centerOfX = dc.getWidth()/2;
+    	centerOfY = dc.getHeight()/2;
         // setScreenDimensions(dc);
         made_evolve16_font = WatchUi.loadResource(Rez.Fonts.made_evolve16);
         made_evolve48_font = WatchUi.loadResource(Rez.Fonts.made_evolve48);
@@ -45,35 +45,12 @@ class sovietWatchfaceView extends WatchUi.WatchFace {
         var backgroundView = View.findDrawableById("background");
         backgroundView.draw(dc);
 
-        // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$";
-        var clockTime = System.getClockTime();
-        var hours = clockTime.hour;
-        if (!System.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (getApp().getProperty("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
-        }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
-
-        // Update the view
-        var timeView = View.findDrawableById("TimeLabel") as Text;
-        timeView.setColor(getApp().getProperty("ForegroundColor") as Number);
-        timeView.setFont(made_evolve48_font);
-        timeView.setText(timeString);
-        // view.setLocation(screenWidth/2 - view.width/2, screenHeight/2 - view.height/2);
-
         var titleView = View.findDrawableById("PageHeading") as Text;
         titleView.setFont(made_evolve16_font);
         titleView.setText("CCCP");
         var titleViewWidth = dc.getTextWidthInPixels("CCCP", made_evolve16_font);
-        var titleCenter = (dc.getWidth() - titleViewWidth) / 2;
-        titleView.setLocation(titleCenter, 77);
+        var titleStart = (dc.getWidth() / 2) - (titleViewWidth / 2);
+        titleView.setLocation(titleStart, 77);
 
         // Draw the layout and then run your own custom drawing
         View.onUpdate(dc);
@@ -88,9 +65,8 @@ class sovietWatchfaceView extends WatchUi.WatchFace {
         var dateEllipseView = View.findDrawableById("dateEllipse");
         dateEllipseView.draw(dc);
         
-        myShapes.draw(dc);
-        var myShapesX = myShapes.locX;
-        System.println( "myShapesX: " + myShapesX );
+        var mainClockView = View.findDrawableById("mainCLock");
+        mainClockView.draw(dc);
     }
 
     // Called when this View is removed from the screen. Save the
