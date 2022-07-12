@@ -9,8 +9,6 @@ class MainClock extends Ui.Drawable {
     var mainBg = 0x3F3A36;
     var digitBg = 0x000000;
 
-    var mainBgWidth = 180;
-    var mainBgHeight = 57;
     var numberOfDigits = 4;
     var digitBgWidth = 25;
     var digitBgHeight = 45;
@@ -24,16 +22,14 @@ class MainClock extends Ui.Drawable {
     function draw(dc) {
         //draw background for a clock
         dc.setColor(mainBg, mainBg);
-        var startXOfMainBg = centerOfX - mainBgWidth/2;
-        var startYOfMainBg = centerOfY - mainBgHeight/2;
-        dc.fillRectangle(startXOfMainBg, startYOfMainBg, mainBgWidth, mainBgHeight);
+        dc.fillRectangle(mainClockBgStartX, mainClockBgStartY, mainClockBgWidth, mainClockBgHeight);
         //draw background for digits
         dc.setColor(digitBg, digitBg);
-        tempForDigitX = startXOfMainBg+6;
-        dc.fillRectangle(tempForDigitX, startYOfMainBg+6, digitBgWidth, digitBgHeight);
+        tempForDigitX = mainClockBgStartX+6;
+        dc.fillRectangle(tempForDigitX, mainClockBgStartY+6, digitBgWidth, digitBgHeight);
         for(var i = 0; i < numberOfDigits-1; i++){
             tempForDigitX = tempForDigitX+digitBgWidth+22;
-			dc.fillRectangle(tempForDigitX, startYOfMainBg+6, digitBgWidth, digitBgHeight);
+			dc.fillRectangle(tempForDigitX, mainClockBgStartY+6, digitBgWidth, digitBgHeight);
 		}
         tempForDigitX = 0;
 
@@ -53,14 +49,14 @@ class MainClock extends Ui.Drawable {
         // put clock into digit backgrounds 
         //dc.clear();
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        tempForDigitX = startXOfMainBg+6;
-		dc.drawText(tempForDigitX + (digitBgWidth/2), startYOfMainBg+6, 
+        tempForDigitX = mainClockBgStartX+6;
+		dc.drawText(tempForDigitX + (digitBgWidth/2), mainClockBgStartY+6, 
 					made_evolve48_font, 
 					timeString.substring(0, 1), 
 					Graphics.TEXT_JUSTIFY_CENTER);
         for(var i = 1; i < numberOfDigits; i++){
             tempForDigitX = tempForDigitX+digitBgWidth+22+(digitBgWidth/2);
-			dc.drawText(tempForDigitX, startYOfMainBg+6, 
+			dc.drawText(tempForDigitX, mainClockBgStartY+6, 
 					made_evolve48_font, 
 					timeString.substring(i, i+1), 
 					Graphics.TEXT_JUSTIFY_CENTER);

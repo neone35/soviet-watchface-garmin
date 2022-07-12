@@ -8,14 +8,21 @@ import Toybox.Time.Gregorian;
 
 var made_evolve16_font as FontResource;
 var made_evolve48_font as FontResource;
+var made_evolve10_font as FontResource;
 
-var centerOfX = 0;
-var centerOfY = 0;
+var centerOfScreenX = 0;
+var centerOfScreenY = 0;
+
+var mainClockBgWidth = 180;
+var mainClockBgHeight = 57;
+var mainClockBgStartX = 0;
+var mainClockBgStartY = 0;
 
 class sovietWatchfaceView extends WatchUi.WatchFace {
 
     private var cccp_gost as BitmapResource;
-    //private var mainClockBg as Drawable;
+    private var kilowatt_clock_string as String; 
+    private var gost6570_string as String; 
 
     function initialize() {
         WatchFace.initialize();
@@ -24,12 +31,16 @@ class sovietWatchfaceView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        centerOfX = dc.getWidth()/2;
-    	centerOfY = dc.getHeight()/2;
-        // setScreenDimensions(dc);
+        centerOfScreenX = dc.getWidth()/2;
+    	centerOfScreenY = dc.getHeight()/2;
+        mainClockBgStartX = centerOfScreenX - mainClockBgWidth/2;
+        mainClockBgStartY = centerOfScreenY - mainClockBgHeight/2;
         made_evolve16_font = WatchUi.loadResource(Rez.Fonts.made_evolve16);
         made_evolve48_font = WatchUi.loadResource(Rez.Fonts.made_evolve48);
-        cccp_gost = WatchUi.loadResource(Rez.Drawables.CccpGost);
+        made_evolve10_font = WatchUi.loadResource(Rez.Fonts.made_evolve10);
+        cccp_gost = WatchUi.loadResource(Rez.Drawables.CccpGost) as BitmapResource;
+        kilowatt_clock_string = WatchUi.loadResource($.Rez.Strings.KilowattClock) as String;
+        gost6570_string = WatchUi.loadResource($.Rez.Strings.Gost6570) as String;
         setLayout(Rez.Layouts.WatchFace(dc));
     }
 
@@ -44,29 +55,21 @@ class sovietWatchfaceView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         var backgroundView = View.findDrawableById("background");
         backgroundView.draw(dc);
+        drawKiloAndGostTexts(dc);
 
-        var titleView = View.findDrawableById("PageHeading") as Text;
-        titleView.setFont(made_evolve16_font);
-        titleView.setText("CCCP");
-        var titleViewWidth = dc.getTextWidthInPixels("CCCP", made_evolve16_font);
-        var titleStart = (dc.getWidth() / 2) - (titleViewWidth / 2);
-        titleView.setLocation(titleStart, 77);
+        var dateEllipseView = View.findDrawableById("dateEllipse");
+        dateEllipseView.draw(dc);
+        
+        var mainClockView = View.findDrawableById("mainClock");
+        mainClockView.draw(dc);
 
         // Draw the layout and then run your own custom drawing
         View.onUpdate(dc);
 
-        // dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLUE);
+        // draw soviet logo
         var cccpWidth = cccp_gost.getWidth();
-        var cccpCenterHoriz = (dc.getWidth() - cccpWidth) / 2;
-        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLACK);
-        dc.drawBitmap(cccpCenterHoriz, 3, cccp_gost);
-
-        // cccp_gost.draw(dc);
-        var dateEllipseView = View.findDrawableById("dateEllipse");
-        dateEllipseView.draw(dc);
-        
-        var mainClockView = View.findDrawableById("mainCLock");
-        mainClockView.draw(dc);
+        var cccpStartX = (dc.getWidth() / 2) - (cccpWidth / 2);
+        dc.drawBitmap(cccpStartX, 3, cccp_gost);
     }
 
     // Called when this View is removed from the screen. Save the
@@ -81,6 +84,23 @@ class sovietWatchfaceView extends WatchUi.WatchFace {
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() as Void {
+    }
+
+    private function drawKiloAndGostTexts(dc as Dc) {
+    	// draw КИЛОВАТТ-ЧАСЫ text
+        var kilowattClock = View.findDrawableById("kilowattClock") as Text;
+        kilowattClock.setFont(made_evolve16_font);
+        kilowattClock.setText(kilowatt_clock_string);
+        var kilowattClockDimensions = dc.getTextDimensions(kilowatt_clock_string, made_evolve16_font);
+        var heightOfKilowattClock = kilowattClockDimensions[1];
+        kilowattClock.setLocation(mainClockBgStartX, mainClockBgStartY-heightOfKilowattClock);
+        // draw ГОСТ6570-60 text
+        var gost6570 = View.findDrawableById("gost6570") as Text;
+        gost6570.setFont(made_evolve10_font);
+        gost6570.setText(gost6570_string);
+        var gost6570Dimensions = dc.getTextDimensions(gost6570_string, made_evolve10_font);
+        var heightOfGost6570 = gost6570Dimensions[1];
+        gost6570.setLocation(mainClockBgStartX, mainClockBgStartY-heightOfKilowattClock-heightOfGost6570);
     }
 
 }

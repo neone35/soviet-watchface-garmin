@@ -1,4 +1,5 @@
 <fonts>
-    <font id="made_evolve16" filename="made_evolve16.fnt"/>
-    <font id="made_evolve48" filename="made_evolve48.fnt"/>
+    <font id="made_evolve16" filename="made_evolve16.fnt" antialias="true"/>
+    <font id="made_evolve48" filename="made_evolve48.fnt" antialias="true"/>
+    <font id="made_evolve10" filename="made_evolve10.fnt" antialias="true"/>
 </fonts>

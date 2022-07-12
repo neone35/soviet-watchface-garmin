@@ -13,4 +13,7 @@
     <string id="ColorBlue">Blue</string>
     <string id="ColorRed">Red</string>
 
+    <string id="KilowattClock">КИЛОВАТТ-ЧАСЫ</string>
+    <string id="Gost6570">ГОСТ6570-60</string>
+
 </strings>

@@ -3,9 +3,12 @@ using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Application;
 using Toybox.Time.Gregorian;
+using Toybox.Test;
 
 function addZero(number) {
-    if (number.toChar().toString().length()<= 1) {
+    var numLength = number.format("%1d").length();
+    //System.println( "Number is" +  number + "and has length of" + numLength);
+    if (numLength<=1) {
         return "0"+number;
     } else {
         return number;
@@ -15,6 +18,8 @@ function addZero(number) {
 class DateEllipse extends Ui.Drawable {
 
     var heightOfEllipse = 10;
+    var radiusOfEllipse = 25;
+    var xyOfEllipse = 50;
     var dateString = "00/00";
 	
     function initialize(params) {
@@ -22,15 +27,16 @@ class DateEllipse extends Ui.Drawable {
     }
 
     function draw(dc) {
-    	//var isFull = false;
-
         //draw filled ellipse to hold date
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
-        dc.fillEllipse(50, 50, 25, heightOfEllipse);
+        dc.fillEllipse(xyOfEllipse, xyOfEllipse, radiusOfEllipse, heightOfEllipse);
         var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-        dateString = Lang.format("$1$/$2$", [addZero(today.month),addZero(today.day)]);
+        dateString = Lang.format(
+            "$1$/$2$", 
+            [today.month.format("%02d"),today.day.format("%02d")]
+            );
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
-        dc.drawText(50, 50-heightOfEllipse, made_evolve16_font, dateString, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(xyOfEllipse, xyOfEllipse-heightOfEllipse, made_evolve16_font, dateString, Graphics.TEXT_JUSTIFY_CENTER);
 
     	// dc.setPenWidth(4);
 		// dc.setColor(gsecondary_color, Graphics.COLOR_TRANSPARENT);

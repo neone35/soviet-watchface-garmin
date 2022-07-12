@@ -1,6 +1,7 @@
 <layout id="WatchFace">
     <drawable id="background" class="BackgroundView"></drawable>
     <drawable id="dateEllipse" class="DateEllipse"></drawable>
-    <label id="PageHeading" font="Graphics.FONT_MEDIUM" color="Graphics.COLOR_WHITE" />
-    <drawable id="mainCLock" class="MainClock"></drawable>
+    <label id="gost6570" color="Graphics.COLOR_WHITE" />
+    <label id="kilowattClock" color="Graphics.COLOR_WHITE" />
+    <drawable id="mainClock" class="MainClock"></drawable>
 </layout>
